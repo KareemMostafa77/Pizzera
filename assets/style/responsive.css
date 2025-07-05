@@ -1,0 +1,174 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 992px) { 
+    /* Navbar */
+    nav .navbar-toggler{
+        margin: 0 30px;
+    }
+    nav .navbar-collapse{
+        background-color: #242424;
+        text-align: center;
+    }
+    /* Header */
+    header .header-background img{
+        height: 100%;
+    }
+    header .header-content .content .first-title{
+        font-size: 70px;
+    }
+    header .header-content .content .second-title{
+        font-size: 50px;
+    }
+    header .header-content .content .btn{
+        font-size: 30px;
+        margin: 0px 0px 0px 40px;
+    }
+    /* Section 2 */
+    .section-2 .content-col{
+        margin-left: 50px;
+    }
+    .section-2 .section-2-content .content-title{
+       text-align: center;
+    }
+    /* Section 3 */
+    .section-3 .container{
+        max-width: 100%;
+    }
+    .section-3 .row > div {
+        padding: 0;
+    }
+    .section-3 .title{
+        font-size: 24px;
+    }
+    /* Section 6 */
+    .section-6 .container-fluid{
+        padding: 50px 0px;
+    }
+    .section-6 .card{
+        padding: 30px;
+    }
+}
+
+/* small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) { 
+    /* Header */
+    header .header-background{
+        height: 80%;
+    }
+    header .header-content .content .first-title{
+        font-size: 50px;
+    }
+    header .header-content .content .second-title{
+        font-size: 40px;
+    }
+    header .header-content .content .btn{
+        font-size: 24px;
+    }
+    /* Section 2 */
+    .section-2{
+        margin-top: -50px;
+    }
+    .section-2 .content-col{
+        margin-left: 30px;
+    }
+    .section-2 .section-2-content .content-quest , .section-2 .section-2-content .content-list li{
+        letter-spacing: 2px;
+    }
+    /* Section 4 */
+    .section-4 .first-list{
+        background: linear-gradient(180deg, rgba(255,186,0,1) 70%, rgba(255,186,0,0) 25%);
+    }
+}
+
+/* small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px){
+   /* Header */
+    header{
+        height: 80vh;
+        background-image: url(../images/header-bg.png);
+        background-position: top;
+    }
+    header .header-background{
+        display: none;
+    }
+    header .header-content nav .navbar-brand{
+        padding: 10px 10px 10px 20px;
+    }
+    /* Section 2 */
+    .section-2{
+        margin: 0;
+        padding: 50px 0px;
+    }
+    .section-2 .section-2-content{
+        position: static
+    }
+    .section-2 .content-col{
+        margin-left: 0px;
+    }
+    .section-2 .content-col .content-title{
+        margin: 0 10px;
+    }
+    .section-2 .section-2-content .content-quest, .section-2 .section-2-content .content-list li{
+        margin-bottom: 10px;
+    }
+    /* Section 4 */
+    .section-4{
+        background-position: top;
+    }
+    .section-4 .first-list{
+        background: linear-gradient(180deg, rgba(255,186,0,1) 75%, rgba(255,186,0,0) 25%);
+        padding: 0px;
+        text-align: center;
+        padding-top: 30x;
+    }
+    .section-4 .first-list >div{
+        margin-bottom: 10px;
+    }
+    .section-4 .first-list p{
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+    .section-4 .second-list>div {
+        padding: 15px 50px;
+    }
+    /* Section 5 */
+    .section-5{
+        padding: 20px 0px;
+    }
+    .section-5 .list{
+        flex-wrap: wrap;
+        padding: 0px;
+        margin: 0;
+    }
+    .section-5 .list li{
+        width: 50%;
+        cursor: pointer;
+        margin: 0 0 20px 0;
+    }
+    /* Section 6 */
+    .section-6 .title{
+        padding: 0;
+        text-align: center;
+    }
+    /* Section 7 */
+    .section-7 .title{
+        color: white;
+    }
+    .section-7 .images-contanier>div{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .section-7 .images-contanier img{
+        height: 300px;
+    }
+    .section-7 .company-info{
+        padding: 0px;
+    }
+    /* Footer */
+    footer .row{
+        width: 100% !important;
+    }
+
+}
+
+
+
